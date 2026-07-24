@@ -1,0 +1,9 @@
+{
+  "javascript": "ok",
+  "index": true,
+  "single_file": true,
+  "assets": [
+    "concept-v5-3.png",
+    "body-front-neutral.png"
+  ]
+}
