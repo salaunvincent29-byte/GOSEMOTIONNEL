@@ -1,0 +1,11 @@
+{
+  "name": "GPS émotionnel V8.2",
+  "short_name": "GPS émotions",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f6f7",
+  "theme_color": "#2b6178",
+  "lang": "fr",
+  "description": "Version corrigée du GPS émotionnel avec module photographique sécurisé."
+}

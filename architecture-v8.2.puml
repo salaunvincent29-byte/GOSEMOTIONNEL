@@ -1,0 +1,28 @@
+@startuml
+title GPS émotionnel V8.2
+start
+:Accueil;
+:Ouvrir Photos;
+repeat
+  :Afficher 4 photos sans texte;
+  if (Choix ?) then (Une photo)
+    :Ajouter à la présélection;
+  else (Aucune)
+  endif
+repeat while (10 séries terminées ?) is (Non)
+:Choisir exactement 3 photos;
+if (3 choix ?) then (Oui)
+  :Activer "Analyser mes trois choix";
+  :runVisualAnalysis();
+  :Calculer scores et cohérence;
+  :Afficher le résultat;
+  if (Résultat confirmé ?) then (Oui)
+    :Enregistrer dans l'historique;
+  else (Non)
+    :Ouvrir la boussole;
+  endif
+else (Non)
+  :Bouton désactivé;
+endif
+stop
+@enduml
