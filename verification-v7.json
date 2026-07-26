@@ -1,0 +1,10 @@
+{
+  "javascript": "ok",
+  "questions": 54,
+  "modules": [
+    "questionnaire",
+    "boussole",
+    "communication",
+    "historique"
+  ]
+}

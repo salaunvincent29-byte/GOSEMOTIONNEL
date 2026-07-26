@@ -1,0 +1,24 @@
+@startuml
+title GPS émotionnel V7
+start
+:Accueil;
+if (Choix du module) then (Questionnaire)
+  :Parcours court ou complet;
+  :Questions corporelles et contextuelles;
+  :Panorama probabiliste;
+  :Enregistrement local;
+elseif (Boussole)
+  :Tourner l'aiguille;
+  :Sélection manuelle d'une émotion;
+  :Fonction, besoins et nuances;
+  :Confirmer et enregistrer;
+elseif (Communiquer)
+  :Messages immédiats;
+  :Besoins par catégories;
+  :Composer une phrase;
+  :Afficher en grand ou vocaliser;
+else (Historique)
+  :Consulter ou supprimer;
+endif
+stop
+@enduml
