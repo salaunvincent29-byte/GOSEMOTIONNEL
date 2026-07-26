@@ -1,0 +1,28 @@
+@startuml
+title GPS émotionnel V8
+start
+:Accueil;
+if (Module choisi ?) then (Questionnaire)
+  :Parcours court ou complet;
+  :Panorama probabiliste;
+elseif (Photos)
+  :10 séries de 4 photos;
+  :Présélection libre;
+  :Choix final de 3 photos;
+  :Scores pondérés;
+  if (Résultat approprié ?) then (Oui)
+    :Enregistrer dans l'historique;
+  else (Non)
+    :Ouvrir la boussole;
+  endif
+elseif (Boussole)
+  :Tourner l'aiguille;
+  :Confirmer l'émotion;
+elseif (Communiquer)
+  :Choisir ou composer un message;
+  :Afficher ou vocaliser;
+else (Historique)
+  :Consulter les trois types de résultats;
+endif
+stop
+@enduml

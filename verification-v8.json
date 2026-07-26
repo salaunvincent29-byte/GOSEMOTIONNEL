@@ -1,0 +1,13 @@
+{
+  "javascript": "ok",
+  "photos": 40,
+  "corpus_entries": 40,
+  "modules": [
+    "questionnaire",
+    "photos",
+    "boussole",
+    "communication",
+    "historique"
+  ],
+  "offline_assets": 46
+}
