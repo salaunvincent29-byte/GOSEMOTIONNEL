@@ -1,0 +1,39 @@
+{
+  "id": "./",
+  "name": "GPS émotionnel V10.1",
+  "short_name": "GPS émotionnel",
+  "description": "Compagnon local de repérage, de constats ponctuels, de suivi des cuillères, des besoins et de communication, avec sources méthodologiques intégrées.",
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef3f5",
+  "theme_color": "#245f78",
+  "categories": [
+    "health",
+    "lifestyle",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
