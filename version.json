@@ -1,0 +1,11 @@
+{
+  "version": "11.0.0",
+  "buildDate": "2026-07-29",
+  "distribution": "github-pages",
+  "features": [
+    "memos",
+    "timers",
+    "local-reminders",
+    "optional-notifications"
+  ]
+}
